@@ -10,6 +10,14 @@ body { margin: 0; padding: 0; border: 0; font-size: 100%; }
   background-size: cover;
 		
 }
+
+.productbody {
+	background-image: url("../images/background ideas-02.jpg");
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 	
 .sitebody
 {
@@ -96,7 +104,11 @@ padding-left: 6px;
 }
 
 	
-
+footer {
+	width: auto;
+	height: auto;
+	background-color:#FEFEFE
+}
 
 
 
