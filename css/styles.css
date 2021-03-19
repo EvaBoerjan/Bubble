@@ -22,11 +22,13 @@ body { margin: 0; padding: 0; border: 0; font-size: 100%; }
 
 }
 
+
+
 .contactbody {
 	
 
  background-image: url("../images/background ideas-05.jpg");	
-	  -webkit-background-size: cover;
+  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
@@ -46,6 +48,12 @@ padding-left: 6px;
 	margin-right: auto;
 	margin-top: 50px;
 }
+
+.contacttitle {
+	text-align: center;
+	
+}
+
 .logo {
 	min-height: 150px;
 	min-width: 150px;
