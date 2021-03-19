@@ -3,10 +3,11 @@
 
 
 	
+	
 .body
 {
 	background-image: url("../images/background-vol2.png");
-	 no-repeat center center fixed;
+	 no-repeat center:center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -16,11 +17,21 @@
 
 }
 
+.fronttext {
+	align-content: center;
+	margin-right: 84px;
+	margin-left: 84px;
+	text-align: center;
+	margin-top: 43px;
+}
+
 .meet {
 	text-align: center;	
 	
 	
 }
+
+
 
 
 
