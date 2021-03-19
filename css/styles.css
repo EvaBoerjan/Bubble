@@ -30,6 +30,8 @@ body { margin: 0; padding: 0; border: 0; font-size: 100%; }
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  float: left;
+padding-left: 6px;
 }
 
 
@@ -75,8 +77,16 @@ body { margin: 0; padding: 0; border: 0; font-size: 100%; }
 	
 }
 	
+.form-control-file {
+float: left;
+padding-left: 6px;
+}
 	
-	
+.btn-group-toggle {
+	float: left;
+	padding-left: 6px;
+}
+
 	
 
 
