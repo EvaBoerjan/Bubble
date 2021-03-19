@@ -7,22 +7,37 @@
 .body
 {
 	background-image: url("../images/background-vol2.png");
-	 no-repeat center:center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 		
-	
 
 }
 
-.fronttext {
-	align-content: center;
-	margin-right: 84px;
-	margin-left: 84px;
+
+
+
+.jumbotron-fluid {
 	text-align: center;
-	margin-top: 43px;
+	border-radius: 27px;
+	min-width: 0px;
+	width: 600px;
+	background-color: #FFFFFD;
+	vertical-align: middle;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+.logo {
+	min-height: 150px;
+	min-width: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+	margin-top: 15px;	
 }
 
 .meet {
@@ -30,9 +45,6 @@
 	
 	
 }
-
-
-
 
 
 .card {
