@@ -3,12 +3,32 @@ body { margin: 0; padding: 0; border: 0; font-size: 100%; }
 
 
 .homebody {
-	background-image: url(../images/background-home.jpg);	
-	  -webkit-background-size: cover;
+	background-color: aliceblue;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	margin: Set Shorthand;
+	height: 100%;
+		
+}
+
+.video{
+	align-content: center;
+	 width: 1000px;
+	height: 700px;
+	
+	
+}
+
+.aboutbody {
+	background-image: url("../images/background ideas-06.jpg");
+	-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-		
+	
 }
 
 .productbody {
@@ -104,10 +124,26 @@ padding-left: 6px;
 }
 
 	
-footer {
-	width: auto;
-	height: auto;
-	background-color:#FEFEFE
+.myfooter {
+	
+	background-color:#FEFEFE;
+	  position: absolute;
+    left: 0;
+    bottom: 0;
+    height: auto;
+    width: 100%;
+    overflow: hidden
+		
+	
+}
+
+#bgvideo {
+	
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-height: 100%;
+	min-width: 100%;
 }
 
 
