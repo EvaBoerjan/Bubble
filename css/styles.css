@@ -3,7 +3,7 @@ body { margin: 0; padding: 0; border: 0; font-size: 100%; }
 
 
 .homebody {
-	background-color: aliceblue;
+	background-image: url("../images/background -team-01.jpg");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -64,18 +64,18 @@ body { margin: 0; padding: 0; border: 0; font-size: 100%; }
 padding-left: 6px;
 }
 
-
-.jumbotron-fluid {
+.display-1 {
+	
 	text-align: center;
-	border-radius: 27px;
-	min-width: 0px;
-	width: 600px;
-	background-color: #FFFFFD;
-	vertical-align: middle;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 50px;
 }
+
+.display-4 {
+	
+	text-align: center;
+	font-size: 20pt;
+}
+
+
 
 .contacttitle {
 	text-align: center;
@@ -137,13 +137,15 @@ padding-left: 6px;
 	
 }
 
-#bgvideo {
-	
+
+video {
 	position: fixed;
-	right: 0;
-	bottom: 0;
-	min-height: 100%;
-	min-width: 100%;
+	top: 50%;
+	left: 50%;
+	z-index: -100;
+	transform: translateX(-50%) translateY(-50%);
+	
+	
 }
 
 
