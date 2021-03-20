@@ -39,16 +39,10 @@ body { margin: 0; padding: 0; border: 0; font-size: 100%; }
   background-size: cover;
 }
 	
-.sitebody
-{
-	background-image: url("../images/background-vol2.png");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+
 		
 
-}
+
 
 
 
@@ -93,10 +87,10 @@ padding-left: 6px;
 	padding-right: 41px;
 	padding-bottom: 41px;
 	padding-left: 41px;
-	margin-top: 15px;
-	margin-right: 15px;
-	margin-bottom: 15px;
-	margin-left: 15px;
+	margin-top: 69px;
+	margin-right: 69px;
+	margin-bottom: 69px;
+	margin-left: 69px;
 }
 
 
