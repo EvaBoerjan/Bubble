@@ -21,13 +21,6 @@ body {
 }
 
 
-	
-	
-
-	
-	
-
-
 .aboutbody {
 	background-image: url("../images/background ideas-06.jpg");
 	-webkit-background-size: cover;
@@ -45,7 +38,6 @@ body {
   background-size: cover;
 }
 	
-<<<<<<< HEAD
 .sitebody
 {
 	background-image: url("../images/background-vol2.png");
@@ -54,20 +46,13 @@ body {
   -o-background-size: cover;
   background-size: cover;	
 }
-=======
 
-		
-
-
->>>>>>> a9ea9da87508b497563fb718cafa8d03a520d900
 
 .findusbody {
 	background-image: url("../images/background ideas-02.jpg");
 }
 
 .contactbody {
-	
-
  background-image: url("../images/background ideas-05.jpg");	
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -130,10 +115,10 @@ padding-left: 6px;
 	text-align: center;
 	display: table-cell;
 	vertical-align: middle;
-	/* [disabled]padding-top: 95px; */
-	/* [disabled]padding-right: 40px; */
-	/* [disabled]padding-bottom: 40px; */
-	/* [disabled]padding-left: 40px; */
+	padding-top: 95px; 
+	padding-right: 40px; 
+	padding-bottom: 40px; 
+	padding-left: 40px; 
 	right: 50px;
 	left: 50px;
 }
@@ -168,8 +153,7 @@ padding-left: 6px;
 	padding-left: 6px;
 }
 
-	
-<<<<<<< HEAD
+
 footer {
 	background: #111;
 	height:auto;
@@ -220,19 +204,6 @@ footer {
 .socials a i{
 	font-size: 1.1rem;
 	transition: color .4s ease;
-=======
-.myfooter {
-	
-	background-color:#FEFEFE;
-	  position: absolute;
-    left: 0;
-    bottom: 0;
-    height: auto;
-    width: 100%;
-    overflow: hidden
-		
-	
->>>>>>> a9ea9da87508b497563fb718cafa8d03a520d900
 }
 
 
@@ -253,15 +224,4 @@ footer {
 	text-transform: uppercase;
 	opacity: .4;
 	font-weight: 200;
-}
-
-<<<<<<< HEAD
-@media screen { 
-=======
-
-
-
-
-@media screen{
->>>>>>> a9ea9da87508b497563fb718cafa8d03a520d900
 }
