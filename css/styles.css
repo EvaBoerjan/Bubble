@@ -1,5 +1,11 @@
 @charset "utf-8";
-body { margin: 0; padding: 0; border: 0; font-size: 100%; }
+
+body { 
+	margin: 0; padding: 0; border: 0; font-size: 100%;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
 
 
 .homebody {
@@ -25,12 +31,12 @@ body { margin: 0; padding: 0; border: 0; font-size: 100%; }
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
-		
-
+  background-size: cover;	
 }
 
-
+.findusbody {
+	background-image: url("../images/background ideas-02.jpg");
+}
 
 .contactbody {
 	
@@ -105,13 +111,76 @@ padding-left: 6px;
 
 	
 footer {
-	width: auto;
-	height: auto;
-	background-color:#FEFEFE
+	background: #111;
+	height:auto;
+	width: 100vw;
+	padding-top: 40px;
+	color: #fff;
+}
+
+.footer-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.footer-content h3{
+	font-size: 1.8rem;
+	font-weight: 400;
+	text-transform: capitalize;
+	line-height: 3rem;
+}
+
+.footer-content p{
+	max-width: 500px;
+	margin: 10px auto;
+	line-height: 28px;
+	font-size: 14px;
+}
+
+.socials {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 1rem 0 3rem 0;
+}
+
+.socials li {
+	margin: 0 10px;
+}
+
+.socials a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.socials a i{
+	font-size: 1.1rem;
+	transition: color .4s ease;
 }
 
 
+.footer-bottom {
+	background: #000000;
+	width: 100vw;
+	padding: 20px 0;
+	text-align: center;
+}
 
+.footer-bottom p{
+	font-size: 14px;
+	word-spacing: 2px;
+	text-transform: capitalize;
+}
 
-@media screen{
+.footer-bottom span{
+	text-transform: uppercase;
+	opacity: .4;
+	font-weight: 200;
+}
+
+@media screen { 
 }
