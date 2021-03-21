@@ -9,12 +9,32 @@ body {
 
 
 .homebody {
-	background-image: url(../images/background-home.jpg);	
-	  -webkit-background-size: cover;
+	background-image: url("../images/background ideas-04.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	margin: Set Shorthand;
+	height: 100%;
+		
+}
+
+
+	
+	
+
+	
+	
+
+
+.aboutbody {
+	background-image: url("../images/background ideas-06.jpg");
+	-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-		
+	
 }
 
 .productbody {
@@ -25,6 +45,7 @@ body {
   background-size: cover;
 }
 	
+<<<<<<< HEAD
 .sitebody
 {
 	background-image: url("../images/background-vol2.png");
@@ -33,6 +54,12 @@ body {
   -o-background-size: cover;
   background-size: cover;	
 }
+=======
+
+		
+
+
+>>>>>>> a9ea9da87508b497563fb718cafa8d03a520d900
 
 .findusbody {
 	background-image: url("../images/background ideas-02.jpg");
@@ -50,33 +77,65 @@ body {
 padding-left: 6px;
 }
 
-
-.jumbotron-fluid {
+.display-1 {
 	text-align: center;
-	border-radius: 27px;
-	min-width: 0px;
-	width: 600px;
-	background-color: #FFFFFD;
-	vertical-align: middle;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 50px;
+	margin-top: 39px;
+	margin-bottom: 7px;
 }
+
+.display-4 {
+	text-align: center;
+	font-size: 36pt;
+	margin-bottom: 68px;
+	margin-top: 24px;
+	font-weight: lighter;
+}
+.mylogo {
+	align-content: center;
+	display: table-cell;
+	margin-top: 58px;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 85px;
+}
+
+.fronttext {
+	text-align: center;
+	font-weight: normal;
+	padding-top: 41px;
+	padding-right: 41px;
+	padding-bottom: 41px;
+	padding-left: 41px;
+	margin-top: 69px;
+	margin-right: 69px;
+	margin-bottom: 69px;
+	margin-left: 69px;
+}
+
+
 
 .contacttitle {
 	text-align: center;
 	
 }
 
+.fronttext {
+	font-size: 20pt;	
+	
+}
+
 .logo {
 	min-height: 150px;
 	min-width: 150px;
-	margin-left: auto;
-	margin-right: auto;
 	text-align: center;
 	display: table-cell;
 	vertical-align: middle;
-	margin-top: 15px;	
+	/* [disabled]padding-top: 95px; */
+	/* [disabled]padding-right: 40px; */
+	/* [disabled]padding-bottom: 40px; */
+	/* [disabled]padding-left: 40px; */
+	right: 50px;
+	left: 50px;
 }
 
 .meet {
@@ -110,6 +169,7 @@ padding-left: 6px;
 }
 
 	
+<<<<<<< HEAD
 footer {
 	background: #111;
 	height:auto;
@@ -160,6 +220,19 @@ footer {
 .socials a i{
 	font-size: 1.1rem;
 	transition: color .4s ease;
+=======
+.myfooter {
+	
+	background-color:#FEFEFE;
+	  position: absolute;
+    left: 0;
+    bottom: 0;
+    height: auto;
+    width: 100%;
+    overflow: hidden
+		
+	
+>>>>>>> a9ea9da87508b497563fb718cafa8d03a520d900
 }
 
 
@@ -182,5 +255,13 @@ footer {
 	font-weight: 200;
 }
 
+<<<<<<< HEAD
 @media screen { 
+=======
+
+
+
+
+@media screen{
+>>>>>>> a9ea9da87508b497563fb718cafa8d03a520d900
 }
