@@ -170,11 +170,13 @@ padding-left: 6px;
 .question {
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 	font-weight: bold;
+	font-size: 22px; 
 }
 
 .answer {
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 	font-size: normal;
+	font-size: 22px; 
 }
 
 footer {
