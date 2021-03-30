@@ -162,9 +162,13 @@ padding-left: 6px;
 
 .producttext {
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-	font-size: 18px;
-	text-align: center;
+	font-size: 22px;
+	text-align: left;
 
+}
+
+.productheader {
+	text-align: center;
 }
 
 .question {
