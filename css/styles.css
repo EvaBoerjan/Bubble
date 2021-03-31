@@ -4,20 +4,50 @@ body {
 	margin: 0; padding: 0; border: 0; font-size: 100%;
 }
 
-
-.homebody {
-	background-image: url("../images/background ideas-04.jpg");
+#videorooftop {
+	position: absolute;
+	z-index: -100;
+	height: auto;
+	width: 100%;
 	
-  
-  height: 1200px;
-
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-		
 }
 
+@media (min-aspect-ratio: 16/9) {
+	
+	#videorooftop {
+		width: 100%;
+		height: auto;
+	
+	}
+}
+
+@media (max-aspect-ratio: 16/9) {
+	
+	#videorooftop {
+		width: auto;
+		height: 100%;
+	
+	}
+}
+
+@media (max-width: 767px) {
+	
+	
+	#videorooftop {
+		display: none;
+	
+	}
+	
+	.homebody {
+		background: url("../images/poster3.png")
+		
+	
+	}
+}
+
+	
+
+		
 
 .aboutbody {
 	background-image: url("../images/background ideas-06.jpg");
@@ -30,12 +60,38 @@ body {
 
 .abouttext {
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-	font-size: 18px;
-	text-align: center;
+	font-size: 22px;
+	text-align: left;
+
 	
+}
+
+.rooftop1trim {
+	
+	height: 1100px;
+	width: auto;
+
+	padding-right: 80px;
+	padding-top: 80px;
 	
 	
 }
+
+.rooftopdancing
+
+{
+		height: 1050px;
+	width: auto;
+
+	padding-right: 80px;
+	padding-top: 80px;
+	
+	
+}
+
+
+
+
 
 .productbody {
 	background-image: url("../images/background ideas-02.jpg");
