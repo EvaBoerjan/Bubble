@@ -69,6 +69,22 @@ body {
 	margin-bottom: 85px;
 }
 
+.appcard {
+	text-align: center;
+	padding-top: 100px;
+	
+	
+}
+
+.card-body {
+	background-color: white;
+	
+}
+
+	
+	
+
+
 
 /*about page*/
 		
@@ -157,6 +173,11 @@ padding-left: 6px;
 
 /* team */
 
+.teambody {
+	
+	background-image: url("../images/background ideas-01.jpg");
+	background-size: cover;
+}
 .meet {
 	text-align: center;		
 }
@@ -185,6 +206,16 @@ padding-left: 6px;
 .btn-group-toggle {
 	float: left;
 	padding-left: 6px;
+}
+
+
+
+/*justification page*/
+
+.justificationbody {
+	
+	background-image: url("../images/background ideas-04.jpg");
+	background-size: cover;
 }
 
 
