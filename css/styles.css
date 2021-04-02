@@ -4,6 +4,8 @@ body {
 	margin: 0; padding: 0; border: 0; font-size: 100%;
 }
 
+/*index page*/
+
 #videorooftop {
 	position: absolute;
 	z-index: -100;
@@ -45,86 +47,6 @@ body {
 	}
 }
 
-	
-
-		
-
-.aboutbody {
-	background-image: url("../images/background ideas-06.jpg");
-	-webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-	
-}
-
-.abouttext {
-	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-	font-size: 22px;
-	text-align: left;
-
-	
-}
-
-.rooftop1trim {
-	
-	height: 1100px;
-	width: auto;
-
-	padding-right: 80px;
-	padding-top: 80px;
-	
-	
-}
-
-.rooftopdancing
-
-{
-		height: 1050px;
-	width: auto;
-
-	padding-right: 80px;
-	padding-top: 80px;
-	
-	
-}
-
-
-
-
-
-.productbody {
-	background-image: url("../images/background ideas-02.jpg");
-	-webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-	
-.sitebody
-{
-	background-image: url("../images/background-vol2.png");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;	
-}
-
-
-.findusbody {
-	background-image: url("../images/background ideas-02.jpg");
-}
-
-.contactbody {
- background-image: url("../images/background ideas-05.jpg");	
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  float: left;
-padding-left: 6px;
-}
-
 .display-1 {
 	text-align: center;
 	margin-top: 39px;
@@ -147,50 +69,96 @@ padding-left: 6px;
 	margin-bottom: 85px;
 }
 
-.fronttext {
-	text-align: center;
-	font-weight: normal;
-	padding-top: 41px;
-	padding-right: 41px;
-	padding-bottom: 41px;
-	padding-left: 41px;
-	margin-top: 69px;
-	margin-right: 69px;
-	margin-bottom: 69px;
-	margin-left: 69px;
+
+/*about page*/
+		
+
+.aboutbody {
+	background-image: url("../images/background ideas-06.jpg");
+	background-size: cover;
 }
 
+.abouttext {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 22px;
+	text-align: left;
+}
 
+.rooftop1trim {
+	
+	height: 1050px;
+	width: auto;
+	padding-left: 30px;
+	padding-right: 80px;
+	padding-top: 80px;
+	text-align: center; 
+}
 
 .contacttitle {
 	text-align: center;
-	
 }
 
-.fronttext {
-	font-size: 20pt;	
-	
+/*product page */
+.rooftopdancing
+
+{
+	height: 1050px;
+	width: auto;
+	padding-left: 30px;
+	padding-right: 80px;
+	padding-top: 80px;
+	text-align: center; 
 }
 
+.productbody {
+	background-image: url("../images/background ideas-02.jpg");
+  background-size: cover;
+}
 
-.logo {
-	min-height: 150px;
-	min-width: 150px;
+.producttext {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 22px;
+	text-align: left;
+
+}
+
+.productheader {
 	text-align: center;
-	display: table-cell;
-	vertical-align: middle;
-	padding-top: 95px; 
-	padding-right: 40px; 
-	padding-bottom: 40px; 
-	padding-left: 40px; 
-	right: 50px;
-	left: 50px;
 }
+
+/*faq*/
+
+.findusbody {
+	background-image: url( "../images/background ideas-03.jpg");
+	background-size: cover;
+}
+.question {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 22px; 
+}
+
+.answer {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: normal;
+	font-size: 22px; 
+}
+
+
+/*contact*/
+
+.contactbody {
+ background-image: url("../images/background ideas-05.jpg");	
+  background-size: 100%;
+  float: left;
+padding-left: 6px;
+}
+
+
+/* team */
 
 .meet {
-	text-align: center;	
-	
-	
+	text-align: center;		
 }
 
 
@@ -207,6 +175,8 @@ padding-left: 6px;
 	
 }
 	
+/* contact*/
+
 .form-control-file {
 float: left;
 padding-left: 6px;
@@ -217,28 +187,8 @@ padding-left: 6px;
 	padding-left: 6px;
 }
 
-.producttext {
-	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-	font-size: 22px;
-	text-align: left;
 
-}
-
-.productheader {
-	text-align: center;
-}
-
-.question {
-	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-	font-weight: bold;
-	font-size: 22px; 
-}
-
-.answer {
-	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-	font-size: normal;
-	font-size: 22px; 
-}
+/*footer*/
 
 footer {
 	background: #111;
