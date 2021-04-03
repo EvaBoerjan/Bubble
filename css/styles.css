@@ -170,6 +170,16 @@ body {
 padding-left: 6px;
 }
 
+.form-control-file {
+float: left;
+padding-left: 6px;
+}
+	
+.btn-group-toggle {
+	float: left;
+	padding-left: 6px;
+}
+
 
 /* team */
 
@@ -196,25 +206,12 @@ padding-left: 6px;
 	
 }
 	
-/* contact*/
-
-.form-control-file {
-float: left;
-padding-left: 6px;
-}
-	
-.btn-group-toggle {
-	float: left;
-	padding-left: 6px;
-}
-
-
 
 /*justification page*/
 
 .justificationbody {
 	
-	background-image: url("../images/background ideas-04.jpg");
+	background-image: url("../images/justificationbackground.jpg");
 	background-size: cover;
 }
 
