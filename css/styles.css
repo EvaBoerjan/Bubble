@@ -218,6 +218,16 @@ padding-left: 6px;
 	background-size: cover;
 }
 
+.carousel-control-next {
+	
+	color:black;
+}
+
+.carousel-control-prev {
+	
+	color:black;
+}
+
 
 /*footer*/
 
