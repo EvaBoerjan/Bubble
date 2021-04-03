@@ -218,7 +218,15 @@ padding-left: 6px;
 	background-size: cover;
 }
 
+.carousel-control-next-icon {
+	color: black;
+	
+}
 
+.carousel-control-prev-icon {
+	color: black;
+	
+}
 
 
 /*footer*/
